@@ -72,7 +72,6 @@ class UserListViewModel {
             users[userIndex] = tempUser
             processFetchedUsers(users: users)
         }
-        
     }
     
     
@@ -102,8 +101,8 @@ class UserListViewModel {
 
 struct UserListCellViewModel {
     let name: String
-    let phone: String?
-    let website: String?
-    let companyName: String?
-    let isFav:Bool?
+    let phone: String
+    let website: String
+    let companyName: String
+    let isFav:Bool
 }

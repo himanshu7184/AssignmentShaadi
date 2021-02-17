@@ -143,7 +143,7 @@ class UserTableViewCell: UITableViewCell {
             labelCompName.text = userListCellViewModel?.companyName
             labelWebsite.text = userListCellViewModel?.website
             let isFav = userListCellViewModel?.isFav ?? false
-            let imgName = isFav ? "red" : "grey"
+            let imgName = isFav ? "red" : "gray"
             imageFavUser.image = UIImage(named: imgName)
             
         }

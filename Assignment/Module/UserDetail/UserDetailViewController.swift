@@ -50,7 +50,7 @@ class UserDetailViewController: UIViewController {
     
     func initView() {
         let isfav = user.isFav ?? false
-        let imgName = isfav ? "red" : "grey"
+        let imgName = isfav ? "red" : "gray"
         let img = UIImage(named: imgName)!.withRenderingMode(.alwaysOriginal)
         let rightButton = UIBarButtonItem(image: img,
                                           style: UIBarButtonItem.Style.plain,
@@ -67,7 +67,7 @@ class UserDetailViewController: UIViewController {
             DispatchQueue.main.async {
                 let isfav = self?.viewModel.isFavourite ?? false
                 
-                let imgName = isfav ? "red" : "grey"
+                let imgName = isfav ? "red" : "gray"
                 
                 let img = UIImage(named: imgName)!.withRenderingMode(.alwaysOriginal)
                 let rightButton = UIBarButtonItem(image: img,
